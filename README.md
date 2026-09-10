@@ -1,11 +1,11 @@
-# ADHERE — legal pages
+# ADHERE legal pages
 
 Static pages for the App Store's required Privacy Policy and Terms of Service URLs.
 
 ## Publish (one time, ~5 minutes)
 
 1. In GitHub Desktop: **Add Local Repository** → this folder → **Publish repository**
-2. Name it `adhere-legal` and **UNTICK "Keep this code private"** — GitHub Pages
+2. Name it `adhere-legal` and **UNTICK "Keep this code private"**. GitHub Pages
    needs a public repo on a free account, and these pages must be publicly
    readable anyway.
 3. On github.com, open the repo → **Settings → Pages** → Source: `Deploy from a
@@ -36,6 +36,6 @@ https://klara-mt.github.io/adhere-legal/terms.html
 
 ## Important
 
-These were drafted for a specific app — local-first, no accounts, no server —
-and they are only accurate while that stays true. They are a careful starting
-point, not legal advice, and nobody involved in writing them is a lawyer.
+These were drafted for a specific app that is local-first, with no accounts and
+no server. They are only accurate while that stays true. They are a careful
+starting point, not legal advice, and nobody involved in writing them is a lawyer.
