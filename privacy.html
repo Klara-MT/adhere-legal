@@ -5,14 +5,14 @@
 <header>
   <p class="eyebrow">ADHERE</p>
   <h1>Privacy Policy</h1>
-  <p class="updated">Effective 10 September 2026 · Last updated 10 September 2026</p>
+  <p class="updated">Effective 10 September 2026 · Last updated 18 September 2026</p>
   <nav><a href="index.html">Legal</a> · <a href="terms.html">Terms of Service</a></nav>
 </header>
 
 <div class="plain">
   <h2>The short version</h2>
   <p><strong>Your medication information stays on your phone.</strong> We do not have a server that stores it. We cannot see your medications, your doses, your photos, or whether you took them.</p>
-  <p>The app sends us one thing only: an automatic report when the app crashes, so we can fix it. Those reports do not contain your medication information.</p>
+  <p>Two things leave your phone. An automatic report if the app crashes, so we can fix it. And a count of things like "the app was opened" or "a dose was logged", so we know how many people use ADHERE. Neither contains your medication information, and neither contains your name.</p>
   <p>There are no accounts, no passwords, and no sign-in. We do not sell anything and we do not show advertisements.</p>
 </div>
 
@@ -40,6 +40,12 @@
 <p>We use Sentry, a third-party error monitoring service, to receive automatic reports when the app crashes or hits an error. A report may include: the type of error and where in our code it happened, your device model, your operating system version, the app version, and the approximate time.</p>
 <p><strong>Crash reports do not include your medication names, doses, dose history, photos, or display name.</strong> We configure Sentry not to collect personally identifying information.</p>
 <p>Sentry processes this data on our behalf. See <a href="https://sentry.io/privacy/">sentry.io/privacy</a>.</p>
+<h3>Anonymous usage counts</h3>
+<p>We use PostHog, a third-party analytics service, to count how many people use ADHERE. The app sends a short, fixed list of events: the app was opened, onboarding was finished, a medication was added, a dose was logged, and whether reminders were allowed.</p>
+<p><strong>These events never include your medication names, doses, times, photos, notes, or display name.</strong> The only details attached are things like whether a dose was marked taken or skipped, and how many medications you have in total.</p>
+<p>They are tied to a random identifier created the first time you open the app. It is not your name, not your email, and not your device's identifier. It exists only so that two events from the same phone are not counted as two people. Nothing links it back to you.</p>
+<p>See <a href="https://posthog.com/privacy">posthog.com/privacy</a>.</p>
+
 <h3>Links you choose to open</h3>
 <p>The Learn section links to health information published by others, such as MedlinePlus, the CDC, and the NIH. If you tap a link, you leave ADHERE and that website's own privacy policy applies. We do not control those sites and we do not receive information about what you read there.</p>
 
@@ -51,6 +57,7 @@
   <li>We do not track you across other apps or websites</li>
   <li>We do not sell or share personal information with data brokers</li>
   <li>We do not use your information to train machine learning models</li>
+  <li>We do not record what you tap or what is on your screen</li>
 </ul>
 
 <h2>5 · Permissions the app asks for</h2>
